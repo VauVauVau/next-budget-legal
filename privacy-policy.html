@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Margin — Privacy Policy</title>
+  <title>Next Budget — Privacy Policy</title>
   <style>
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 680px; margin: 60px auto; padding: 0 24px; color: #1a1a1a; line-height: 1.7; }
     h1 { font-size: 2rem; font-weight: 700; }
@@ -19,40 +19,43 @@
   <nav><a href="index.html">← Back</a></nav>
 
   <h1>Privacy Policy</h1>
-  <p class="meta">Effective date: May 4, 2025 &nbsp;·&nbsp; Last updated: May 4, 2025</p>
+  <p class="meta">Effective date: May 4, 2025 &nbsp;·&nbsp; Last updated: July 23, 2026</p>
 
-  <p>This Privacy Policy describes how <strong>João Miguel Monte</strong> ("we", "us", or "our") handles your information when you use the <strong>Margin</strong> iOS application ("the App").</p>
+  <p>This Privacy Policy describes how <strong>João Miguel Monte</strong> ("we", "us", or "our") handles your information when you use the <strong>Next Budget</strong> iOS application ("the App"). Next Budget was previously known as Margin; this policy applies to the App under either name.</p>
 
   <h2>1. Information We Collect</h2>
-  <p>Margin is designed with privacy in mind. We collect only what is strictly necessary to provide the service:</p>
+  <p>Next Budget is designed with privacy in mind. We collect only what is necessary to provide the service:</p>
   <ul>
-    <li><strong>Financial data you enter</strong> — plans, activities, and cycles you create are stored locally on your device using Realm and, if you enable sync, in your personal Firebase Firestore database.</li>
-    <li><strong>Account information</strong> — if you use the sync feature, a Firebase anonymous or authenticated account is created. No personal information is required to use the App without sync.</li>
-    <li><strong>App usage analytics</strong> — we use Firebase Analytics to collect anonymous, aggregated usage data (e.g. screens visited, session length). This data cannot be used to identify you personally.</li>
-    <li><strong>Purchase status</strong> — whether you have purchased the full version is stored locally via StoreKit and UserDefaults. We do not store payment details.</li>
+    <li><strong>Financial data you enter</strong> — plans, activities, cycles, notes, and related settings you create are stored locally on your device using Realm and, if you enable sync, in Firebase Firestore for your sync group.</li>
+    <li><strong>Account information</strong> — if you use sync, you may sign in with Apple or Google (via Firebase Authentication). Without sync, the App works fully offline and no account is required. Display name, email, and avatar preferences you provide for sync profiles are stored for that purpose.</li>
+    <li><strong>App usage analytics</strong> — we use Firebase Analytics to collect usage data (for example screens visited and feature interactions). Events are associated with an anonymous device ID or, after sign-in, your Firebase user ID — not your name or email in Analytics event parameters.</li>
+    <li><strong>Crash and diagnostic data</strong> — we use Firebase Crashlytics to collect crash reports and related technical diagnostics (for example stack traces, app version, and device type) so we can fix bugs and improve stability.</li>
+    <li><strong>Purchase status</strong> — whether you have purchased Next Budget Pro is stored locally via StoreKit and UserDefaults. We do not store payment card details.</li>
   </ul>
 
   <h2>2. How We Use Your Information</h2>
   <ul>
     <li>To provide and improve the App's features.</li>
-    <li>To sync your data across your devices (only if you enable sync).</li>
+    <li>To sync and share your data across devices and with members of a sync group you join (only if you enable sync).</li>
     <li>To restore your purchase across reinstalls.</li>
     <li>To understand how users interact with the App in aggregate.</li>
+    <li>To diagnose crashes and reliability issues.</li>
   </ul>
 
   <h2>3. Data Storage and Security</h2>
   <p>Your financial data is stored:</p>
   <ul>
-    <li><strong>Locally</strong> on your device (Realm database).</li>
-    <li><strong>In Firebase Firestore</strong> if you enable the sync feature. Firebase Firestore is a Google service governed by <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.</li>
+    <li><strong>Locally</strong> on your device (Realm database), including optional Apple Watch and widget companions that share data via an App Group on your devices.</li>
+    <li><strong>In Firebase Firestore</strong> if you enable the sync feature. Firebase services are operated by Google and governed by <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.</li>
   </ul>
   <p>We do not sell, rent, or share your personal data with third parties for marketing purposes.</p>
 
   <h2>4. Third-Party Services</h2>
   <p>The App integrates the following third-party services:</p>
   <ul>
-    <li><strong>Firebase (Google)</strong> — Authentication, Firestore, Analytics. <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy</a>.</li>
-    <li><strong>Apple StoreKit</strong> — In-app purchases. <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple Privacy Policy</a>.</li>
+    <li><strong>Firebase (Google)</strong> — Authentication, Firestore, Analytics, and Crashlytics. <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy</a>.</li>
+    <li><strong>Sign in with Apple / Google Sign-In</strong> — optional account providers when you enable sync. Subject to Apple's and Google's respective privacy policies.</li>
+    <li><strong>Apple StoreKit</strong> — in-app purchases. <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple Privacy Policy</a>.</li>
   </ul>
 
   <h2>5. Children's Privacy</h2>
@@ -61,9 +64,10 @@
   <h2>6. Your Rights</h2>
   <p>You may at any time:</p>
   <ul>
-    <li>Delete all your data by using the "Delete All Data" option in the App settings.</li>
-    <li>Disable sync, which stops any data from being sent to Firebase.</li>
-    <li>Contact us to request deletion of any server-side data.</li>
+    <li>Delete local data by uninstalling the App from your device (this removes the on-device database).</li>
+    <li>Export or restore a backup via the App's Data Backup feature (where available).</li>
+    <li>Disable sync, leave a sync group, or sign out, which stops further sync-related uploads from that account/session.</li>
+    <li>Contact us to request deletion of server-side sync data associated with your account.</li>
   </ul>
 
   <h2>7. Changes to This Policy</h2>
